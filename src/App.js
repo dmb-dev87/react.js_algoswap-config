@@ -18,7 +18,7 @@ const myObject = {
 
 var mods = ""
 
-const snippetA = '<noscript>AlgoPay</noscript><link href="https://unpkg.com/algopay-js@1.1.0/dist/styles.css" rel="stylesheet"><div id="root"></div><script>window.details = '
+const snippetA = '<noscript>AlgoSwap</noscript><link href="https://unpkg.com/algopay-js@1.1.0/dist/styles.css" rel="stylesheet"><div id="root"></div><script>window.details = '
 
 const snippetB = '</script><script src="https://unpkg.com/algopay-js@1.1.0/dist/index.js"></script>'
 
@@ -100,7 +100,7 @@ class App extends Component {
         <header className="App-header">
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="."><svg xmlns="http://www.w3.org/2000/svg" width="50" height="27" class="d-block my-1" viewBox="0 0 50 28" role="img"><title>AlgoPay</title><path d="M476.34255,273.05573h-6.69548l2.95245,5.76184h4.26133a3.94648,3.94648,0,0,1,.00312,7.89295h-.21971l2.61108,5.09558a9.461,9.461,0,0,0,2.21-1.02544,9.59936,9.59936,0,0,0,4.47212-8.11979h0a9.60585,9.60585,0,0,0-9.59489-9.60558h-.00045Z" transform="translate(-447.3533 -271.71477)" fill="#5e5ee6"></path><path d="M480.29059,297.68961l-2.8143-5.49222-2.81162-5.48687-4.04473-7.89295-2.95245-5.76184h0a2.46417,2.46417,0,0,0-2.1935-1.341h-3.15967a2.46508,2.46508,0,0,0-2.1935,1.34052l-12.62355,24.63387a1.30789,1.30789,0,0,0,1.16449,1.90427h4.51758l9.07793-17.71467a1.84056,1.84056,0,0,1,3.27466,0l2.47559,4.83087,2.81029,5.48375,3.79205,7.3996h4.51758a1.30789,1.30789,0,0,0,1.164-1.90427l-.00089.00045Z" transform="translate(-447.3533 -271.71477)" fill="#1c1ce1"></path><path d="M470.81736,292.19471l-2.81029-5.48375h-2.13913l2.735,5.45478Z" transform="translate(-447.3533 -271.71477)" fill="#1b1b99"></path><path d="M465.86705,286.71052H462.969l-.01515-.01159-6.54351,12.89539h6.46552l3.77422-7.43749h1.29151l.66045.00847-2.73452-5.45478Z" transform="translate(-447.3533 -271.71477)" fill="#5e5ee6"></path></svg><span class="fs-2"><strong>Algo</strong>Pay</span></a>
+    <a class="navbar-brand" href="."><svg xmlns="http://www.w3.org/2000/svg" width="53" height="32" class="d-block my-1" viewBox="0 0 52 20" role="img"><title>AlgoSwap</title><path class="cls-1" d="M185.6,94l-8.8-14.8c0-.1-.1-.1-.2-.2l-.3-.3h0a1.3,1.3,0,0,0-1.7.6s-10.1,19.3-11.2,21.6a.6.6,0,0,0,0,.6,1,1,0,0,0,1,.7h2.5a.9.9,0,0,0,1-.5l7-13.5.2-.2.3-.3a.9.9,0,0,1,1.1.2h.1l4.4,7.4a1.1,1.1,0,0,0,.9.5h2.6a1.6,1.6,0,0,0,1-.5c.3-.4.3-.5.3-.6A2.4,2.4,0,0,0,185.6,94Z" transform="translate(-163.3 -78.6)" fill="#1c1ce1"></path><path class="cls-2" d="M199.2,90.3a6.9,6.9,0,0,0-4.9-2.1h-2.6a2.7,2.7,0,0,1-2.7-2,2.3,2.3,0,0,1,.5-2.1,2.4,2.4,0,0,1,1.9-1h7.1a1.1,1.1,0,0,0,1.1-.6l1-2a1,1,0,0,0-.1-1.2.9.9,0,0,0-1-.7h-9.4a4.6,4.6,0,0,0-3.8,2c-3,3.8-2,7.9.2,10.1a7.1,7.1,0,0,0,4.9,2.1h2.7a2.6,2.6,0,0,1,2.7,2,2.4,2.4,0,0,1-.6,2,2.6,2.6,0,0,1-1.9,1H180.2c-.2.1-.4-.1-.5-.2l-2.6-4.5a1.2,1.2,0,0,0-2.2,0l-3.7,7.4a1.5,1.5,0,0,0,0,1.3,1.1,1.1,0,0,0,1.1.5h23.3a5.8,5.8,0,0,0,3.9-1.9C202.5,96.5,201.4,92.5,199.2,90.3Z" transform="translate(-163.3 -78.6)"fill="#5e5ee6"></path></svg><span class="fs-2"><strong>Algo</strong>Swap</span></a>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto btn-sm">
         <li class="nav-item">
@@ -121,8 +121,8 @@ class App extends Component {
         <header class="py-5 border-bottom">
         <div class="jumbotron">
         <div class="container">
-          <h1 class="display-3">Try AlgoGen!</h1>
-          <p>The AlgoGen payments snippet generator is your gateway to FutureFi. Simply fill in the required fields and a custom embeddable AlgoPay snippet will be generated for you. The AlgoPay transaction solution is compatible with all major web hosts and website-building platforms.
+          <h1 class="display-3">Try AlgoSwap!</h1>
+          <p>The AlgoSwap token-swapping snippet generator is your gateway to FutureFi. Simply fill in the required fields and a custom embeddable AlgoSwap snippet will be generated for you. The AlgoSwap token-swapping solution is compatible with all major web hosts and website-building platforms.
           </p>
           <p><a class="btn btn-secondary btn-lg" href="#launch" role="button">Learn more »</a></p>
         </div>
@@ -133,20 +133,20 @@ class App extends Component {
   <div class="card-header">
     <ul class="nav nav-tabs card-header-tabs">
       <li class="nav-item">
-        <a class="nav-link active" aria-current="true" href="#">AlgoGen</a>
+        <a class="nav-link active" aria-current="true" href="#">AlgoSwap</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://algo-pay.vercel.app/">AlgoPay</a>
+        <a class="nav-link" href="https://algopay.finance/">AlgoPay</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Terminal-VX3</a>
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Terminal-VX51</a>
       </li>
     </ul>
   </div>
   <div class="card-body">
     <br></br>
-    <h5 class="card-title">Step 1: Prepare your AlgoPay credentials</h5>
-    <p id="launch" class="card-text">Before launching AlgoGen, please take a moment to prepare your ASA ID, Algorand address, and product details/prices. </p>
+    <h5 class="card-title">Step 1: Prepare your AlgoSwap credentials</h5>
+    <p id="launch" class="card-text">Before launching AlgoSwap, please take a moment to prepare your ASA ID, Algorand address, and swapping details/index. </p>
     <a href="https://algoexplorer.io" class="btn btn-md btn-outline-secondary">AlgoExplorer</a>
   </div>
         <div class="card-2">
@@ -158,7 +158,7 @@ class App extends Component {
   <div id="generator" class="form-group row"><header class="SnippetCardHeader github"><div class="tooltip-wrapper" data-tooltipped="" aria-describedby="tippy-tooltip-16" display="inline"></div><h5 class="card-title">Step 2: Generate your code</h5></header></div>
         <form id="calcform1" name="calcform1" autocomplete="off">
           <div class="form-group row">
-            <label for="a" class="col-sm-3 col-form-label">ASA/Index</label>
+            <label for="a" class="col-sm-3 col-form-label">ASA-1</label>
             <div class="col-sm-9">
               <div class="input-group">
                 <input id="indx" onChange={this.handleChange} type="number" placeHolder="0" class="form-control"  placeholder="Asset" />
@@ -168,38 +168,29 @@ class App extends Component {
           </div>
 
           <div class="form-group row">
-            <label for="Ticker" class="col-sm-3 col-form-label">Amount</label>
+            <label for="a" class="col-sm-3 col-form-label">ASA-2</label>
             <div class="col-sm-9">
-            <div class="input-group">
-                <input class="form-control" id="at" onChange={this.handleChange} type="number" placeHolder="0" ></input><div class="input-group-text-2" id="at"><img className="algo-image" src={"https://algoexplorer.io/images/assets/big/light/" + this.state.index + ".png"} /></div>
+              <div class="input-group">
+                <input id="indx" onChange={this.handleChange} type="number" placeHolder="0" class="form-control"  placeholder="Asset" />
+                <div class="input-group-text">{" " + this.state.assetName}</div>
               </div>
             </div>
           </div>
 
           <div class="form-group row">
-            <label for="c" class="col-sm-3 col-form-label">Product ID</label>
+            <label for="c" class="col-sm-3 col-form-label">Swap ID</label>
             <div class="col-sm-9">
-            <input class="form-control" id="nt" onChange={this.handleChange} type="text" placeHolder="Product ID" ></input>
+            <input class="form-control" id="nt" onChange={this.handleChange} type="text" placeHolder="Optional label" ></input>
             </div>
           </div>
+
+
 
           <div class="form-group row">
-            <label for="anglea" class="col-sm-3 col-form-label">Recipient Address</label>
-            <div class="col-sm-9">
-            <input class="form-control" id="rec" onChange={this.handleChange} type="text" placeHolder="Your Algorand Address" ></input>
-            </div>
 
           </div>
 
-          <div class="form-group row">
-            <label for="anglea" class="col-sm-3 col-form-label">Enable Custom Amount</label>
-            <div class="col-sm-9">
-            <input  id="customize" onChange={this.handleChange} class="form-check-input" type="checkbox" placeHolder="Your Algorand Address" ></input>
-            </div>
-
-          </div>
-
-          <div class="form-group row"><header class="SnippetCardHeader github"><div class="tooltip-wrapper" data-tooltipped="" aria-describedby="tippy-tooltip-16" display="inline"></div><h6 class="card-title">Step 2.5: Style your AlgoPay button</h6></header></div>
+          <div class="form-group row"><header class="SnippetCardHeader github"><div class="tooltip-wrapper" data-tooltipped="" aria-describedby="tippy-tooltip-16" display="inline"></div><h6 class="card-title">Step 2.5: Style your AlgoSwap button</h6></header></div>
 
         <div class="snoopy-css">
             <div class="form-group row">
