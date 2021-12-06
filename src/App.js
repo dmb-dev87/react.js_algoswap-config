@@ -19,7 +19,7 @@ var mods = ""
 
 const snippetA = '<noscript>AlgoSwap</noscript><script>window.swapDetails = '
 
-const snippetB = '</script><link href="https://unpkg.com/algoswap@1.0.2/index.css" rel="stylesheet" /><script src="https://unpkg.com/algosdk@1.13.0-beta.1/dist/browser/algosdk.min.js" integrity="sha384-w9fodN00YjvWxdNoiyT+W6CqaATkXlfid9tnzBlToDqZWepVWLjI5wO7jNL4+aNs" crossorigin="anonymous"></script><script src="https://unpkg.com/algoswap@1.0.2/myalgo.min.js"></script><script src="https://unpkg.com/algoswap@1.0.2/logicsig.js"></script><div id="root"></div><script src="https://unpkg.com/algoswap@1.0.2/index.js"></script><script src="https://unpkg.com/algoswap@1.0.2/swap.js"></script><script>const myAlgoWallet = new MyAlgoConnect();</script>'
+const snippetB = '</script><link href="https://unpkg.com/algoswap@1.0.3/index.css" rel="stylesheet" /><script src="https://unpkg.com/algosdk@1.13.0-beta.1/dist/browser/algosdk.min.js" integrity="sha384-w9fodN00YjvWxdNoiyT+W6CqaATkXlfid9tnzBlToDqZWepVWLjI5wO7jNL4+aNs" crossorigin="anonymous"></script><script src="https://unpkg.com/algoswap@1.0.3/myalgo.min.js"></script><script src="https://unpkg.com/algoswap@1.0.3/logicsig.js"></script><div id="root"></div><script src="https://unpkg.com/algoswap@1.0.3/index.js"></script><script src="https://unpkg.com/algoswap@1.0.3/swap.js"></script><script>const myAlgoWallet = new MyAlgoConnect();</script>'
 
 class App extends Component {
 
