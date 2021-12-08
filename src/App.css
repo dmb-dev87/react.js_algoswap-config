@@ -4,6 +4,11 @@
     padding: 6px;
 }
 
+.bi {
+    vertical-align: -0.125em;
+    fill: currentColor;
+}
+
 @media (min-width: 576px){
 .jumbotron {
     padding: 4rem 2rem;
@@ -63,6 +68,28 @@ a.origin.underlined {
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
 }
+
+a.btn.btn-md.btn-outline-secondary {
+    width: 100%;
+}
+
+.jumbotron.jumbotron-2 {
+        background-color: var(--bs-gray-100);
+}
+
+a.btn.btn-lg.btn-bd-primary.mb-3.me-md-3 {
+    background-color: #5e5fe9;
+    color: white;
+}
+
+.flex-column {
+    flex-direction: column!important;
+}
+
+.d-flex {
+    display: flex!important;
+}
+
 .form-group {
     margin-bottom: 1rem;
 }
@@ -206,6 +233,14 @@ a.btn.btn-primary{
 
 .card-header-2{
 border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0; } 
+
+header.SnippetCardHeader.github {
+    display: block;
+}
+
+.text-center {
+    margin-bottom: 3rem !important;
+}
 
 .card-header-2 {
     padding: 0.3125rem 0.625rem;
