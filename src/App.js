@@ -19,7 +19,7 @@ var mods = ""
 
 const snippetA = '<noscript>AlgoSwap</noscript><script>window.swapDetails = '
 
-const snippetB = '</script><link href="https://unpkg.com/algoswap@1.1.0/dist/index.css" rel="stylesheet"><div id="swap-root"></div><script src="https://unpkg.com/algoswap@1.1.0/dist/src.a2b27638.js"></script>'
+const snippetB = '</script><link href="https://unpkg.com/algoswap@1.1.1/dist/index.css" rel="stylesheet"><div id="swap-root"></div><script src="https://unpkg.com/algoswap@1.1.1/dist/src.a2b27638.js"></script>'
 
 class App extends Component {
 
